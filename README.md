@@ -1,27 +1,35 @@
-# Personal Project Template
+# Make Do & Save
 
-Reusable personal project website/template repository.
+A responsive static website combining 1940s **Make Do and Mend** resourcefulness with Catholic household spirituality, practical crafts and a whole-food pescatarian meal plan with limited dairy.
 
-This is a management wrapper only. It records the purpose and status of the repository without changing any published website content, appearance or behaviour.
+## Pages
 
-## Status
+- `index.html` — home and project departments
+- `diy.html` — safe, small-scale home maintenance
+- `sewing.html` — repair, darning, patching and refashioning
+- `knitting.html` — practical knitting and knitwear repair
+- `crochet.html` — useful scrap-yarn projects
+- `food.html` — seven-day pescatarian, Daniel Plan-inspired food pattern
+- `faith.html` — prayer, household patrons and a modest weekly rule
 
-- **Classification:** Template
-- **Current status:** Needs QA review
-- **Public showcase status:** Keep public only if clean and understandable; do not pin by default
+## Design
 
-## Intended use
+The visual language uses a restrained 1940s public-information-poster style: strong slab-serif headings, navy, utility red, cream paper, mustard accents, heavy rules and simple cards. It is responsive and uses semantic HTML, a skip link and a keyboard-operable mobile menu.
 
-This repository should act as a reusable starting point for a personal project site or small structured public project.
+## Run locally
 
-## What this demonstrates
+No build step is needed. Open `index.html` directly, or serve the directory with any static web server.
 
-Potentially demonstrates reusable project structure, information organisation, simple publishing, and low-maintenance website thinking.
+```bash
+python3 -m http.server 8000
+```
 
-## Maintenance notes
+Then open `http://localhost:8000`.
 
-Before promotion, check that the template is safe, generic, documented and not confused with a live portfolio project.
+## Publishing
 
-## Safety notes
+The repository is suitable for GitHub Pages or another static host. No secrets, trackers or personal data are required.
 
-Do not include secrets, credentials, private personal material, third-party personal data, or confidential information.
+## Scope and safety
+
+DIY guidance deliberately excludes gas, major electrical work, structural work and suspected asbestos. Food content is general inspiration rather than medical advice. Catholic content is devotional and practical; authoritative doctrinal questions should be checked against the teaching of the Catholic Church.
