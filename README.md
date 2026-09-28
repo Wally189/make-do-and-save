@@ -1,35 +1,31 @@
 # Make Do & Save
 
-A responsive static website combining 1940s **Make Do and Mend** resourcefulness with Catholic household spirituality, practical crafts and a whole-food pescatarian meal plan with limited dairy.
+**Candidate rebuild in progress. Production/main is not changed by this branch.**
 
-## Pages
+Make Do & Save is a practical, personal household-economy website built around one ongoing question: can an ordinary person get financially healthier and live better by cooking properly, wasting less, repairing things, buying deliberately, learning useful older household skills and gradually paying down debt — without making life miserable?
 
-- `index.html` — home and project departments
-- `diy.html` — safe, small-scale home maintenance
-- `sewing.html` — repair, darning, patching and refashioning
-- `knitting.html` — practical knitting and knitwear repair
-- `crochet.html` — useful scrap-yarn projects
-- `food.html` — seven-day pescatarian, Daniel Plan-inspired food pattern
-- `faith.html` — prayer, household patrons and a modest weekly rule
+## Candidate information architecture
+Home · Blog · Money · Food · Mend · Old Lessons · About
 
-## Design
+The site is static-first HTML/CSS with a small progressive-enhancement script for the mobile menu. Core content and navigation remain available without JavaScript.
 
-The visual language uses a restrained 1940s public-information-poster style: strong slab-serif headings, navy, utility red, cream paper, mustard accents, heavy rules and simple cards. It is responsive and uses semantic HTML, a skip link and a keyboard-operable mobile menu.
+## Candidate vertical slice
+- editorial homepage
+- reusable current-experiment treatment
+- four practical-library discovery cards
+- The Reckoning debt/progress module
+- Latest From the House
+- Food/Money/Mend/Old Lessons landing pages
+- full recipe presentation shell for Mushroom, Pepper, Savoy & Cheese Pasta
+- living-blog article shell
+- comments/community presentation
+- mobile/reduced-motion/accessibility treatment
 
-## Run locally
+## Truth and placeholders
+The design direction is not treated as factual data. Missing current debt balance, recipe quantities/cost/nutrition, reader comments, dates and photography are explicitly labelled rather than invented.
 
-No build step is needed. Open `index.html` directly, or serve the directory with any static web server.
+## Local review
+No build step is required. Serve the repository root with a static HTTP server, e.g. `python3 -m http.server 8000`.
 
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Publishing
-
-The repository is suitable for GitHub Pages or another static host. No secrets, trackers or personal data are required.
-
-## Scope and safety
-
-DIY guidance deliberately excludes gas, major electrical work, structural work and suspected asbestos. Food content is general inspiration rather than medical advice. Catholic content is devotional and practical; authoritative doctrinal questions should be checked against the teaching of the Catholic Church.
+## Release
+This candidate must not be merged, deployed or published without separate authority and release verification.
