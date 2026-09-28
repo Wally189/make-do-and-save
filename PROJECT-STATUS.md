@@ -1,27 +1,19 @@
 # Project Status
 
 ## Classification
-
-**Template**
+Review candidate — editorial website rebuild.
 
 ## Current status
+Candidate only. Not deployed or published. Main remains unchanged.
 
-Needs QA review. This repository should be treated as a reusable personal project template, not a live portfolio project by default.
-
-## Public showcase status
-
-Do not pin by default.
-
-Keep public only if the template is clean, generic, safe and understandable.
+## Candidate branch
+`candidate/editorial-rebuild-2026-09-28`
 
 ## Purpose
+Rebuild Make Do & Save as a practical household-economy editorial site: Money, Food, Mend, Old Lessons and a living blog, with community-oriented recipe/article presentation.
 
-To provide a reusable starting point for personal project websites or structured public projects.
+## Current acceptance position
+Source implementation complete for the bounded vertical slice. Real photography, exact current debt balance, complete tested recipe quantities/method/cost/nutrition, real reader comments and dated real blog copy remain intentionally unfilled rather than fabricated.
 
-## Do not include
-
-Do not include secrets, credentials, private personal material, third-party personal data, or confidential information.
-
-## Current governance action
-
-Check whether this template is still useful. If useful, keep public and tidy; if not, consider making private or archiving manually in GitHub settings.
+## Release rule
+Do not merge, deploy, publish or change the protected/public production state without separate explicit authority and release verification.
