@@ -1,1 +1,2 @@
+document.documentElement.classList.add('js');
 document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.menu-toggle'),n=document.getElementById('site-nav');if(b&&n){b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));n.classList.toggle('open',!open);});}});
