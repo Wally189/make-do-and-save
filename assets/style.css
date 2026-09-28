@@ -111,3 +111,40 @@ body{font-size:15px;line-height:1.38}.wrap{width:min(100% - 24px,var(--max))}
   .principle-grid>div{min-width:0}.principle-grid h3{font-size:.78rem!important;line-height:1.1!important;overflow-wrap:normal!important;word-break:normal!important}
   .principle-grid p{font-size:.75rem!important;line-height:1.25!important}
 }
+
+/* Deterministic phone layout. JS class is a progressive enhancement; ordinary media queries remain fallback. */
+.phone-layout body{font-size:15px;line-height:1.38}
+.phone-layout .wrap{width:calc(100% - 24px);max-width:none}
+.phone-layout .masthead{grid-template-columns:minmax(0,1fr) auto;gap:.65rem;padding:.6rem 0}
+.phone-layout .brand strong{font-size:1.5rem;line-height:.95}.phone-layout .brand span{display:block;font-size:.78rem}
+.phone-layout .identity{display:none}.phone-layout .menu-toggle{display:block;min-width:48px;min-height:44px}
+.phone-layout .nav{display:none;position:absolute;z-index:20;left:0;right:0;width:100%;background:var(--paper);padding:.4rem 12px;border-bottom:2px solid var(--green)}
+.phone-layout .nav.open{display:grid}.phone-layout .nav a{min-height:44px;display:flex;align-items:center;padding:.65rem}
+.phone-layout .hero-inner{min-height:auto}.phone-layout .hero-copy{padding:1.55rem 0 1.65rem;max-width:none}
+.phone-layout .hero h1{font-size:2.45rem;line-height:.9}.phone-layout .hero .strap{font-size:1.12rem;margin:.4rem 0 .6rem}
+.phone-layout .hero-copy>p:last-of-type{font-size:.96rem;line-height:1.32}.phone-layout .actions{margin-top:.85rem}
+.phone-layout .button{min-height:44px;display:inline-flex;align-items:center;padding:.55rem .75rem}
+.phone-layout .experiment{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:.65rem!important;margin-top:.7rem;padding:.75rem!important}
+.phone-layout .experiment-intro{display:block!important}.phone-layout .experiment-intro h2{font-size:1.35rem;line-height:1.04;margin:.12rem 0}
+.phone-layout .experiment-intro p:not(.kicker){font-size:.9rem;margin:.25rem 0!important}.phone-layout .experiment-intro .text-link{display:inline-block;margin-top:.15rem;font-size:.85rem}
+.phone-layout .figures{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;width:100%;border-block:1px solid var(--line);padding:.35rem 0!important}
+.phone-layout .figures div{min-width:0;padding:.12rem .35rem!important}.phone-layout .figures dt{font-size:.56rem!important}.phone-layout .figures dd{font-size:.92rem!important;white-space:nowrap}
+.phone-layout .ticks{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;font-size:.78rem!important;line-height:1.25;gap:.12rem .45rem!important}
+.phone-layout .section{padding:.8rem 0}.phone-layout .card-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:.5rem!important}
+.phone-layout .discovery{min-width:0;padding:.38rem}.phone-layout .card-art{height:66px}.phone-layout .card-art:after{inset:auto .3rem .3rem;font-size:.5rem;padding:.12rem .2rem}
+.phone-layout .discovery h2{font-size:.95rem;margin:.3rem .22rem .08rem}.phone-layout .discovery p{font-size:.71rem;line-height:1.2;margin:.12rem .22rem}.phone-layout .discovery b{font-size:.69rem;margin:.22rem}
+.phone-layout .reckoning{padding:.9rem 0}.phone-layout .reckoning-grid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:.55rem!important;align-items:start}
+.phone-layout .reckoning h2{font-size:1.5rem;line-height:1}.phone-layout .reckoning-grid>div:first-child p:last-child{font-size:.86rem;line-height:1.3;margin:.2rem 0}
+.phone-layout .reckoning-stats{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;width:100%}
+.phone-layout .reckoning-stats div{min-width:0!important;border-left:0!important;border-top:1px solid rgba(255,255,255,.3);padding:.45rem .25rem!important}
+.phone-layout .reckoning-stats div:nth-child(even){border-left:1px solid rgba(255,255,255,.3)!important;padding-left:.6rem!important}
+.phone-layout .reckoning-stats dt{font-size:.55rem!important;line-height:1.15}.phone-layout .reckoning-stats dd{font-size:.82rem!important;line-height:1.15!important;overflow-wrap:anywhere!important}
+.phone-layout .reckoning .button{justify-self:start!important}
+.phone-layout .house{display:grid!important;grid-template-columns:minmax(0,1.6fr) minmax(105px,.65fr)!important;gap:.6rem;padding-block:.9rem}
+.phone-layout .house h2{font-size:1.35rem;line-height:1.08}.phone-layout .house p{font-size:.86rem;line-height:1.3;margin:.3rem 0}.phone-layout .note{font-size:.72rem;line-height:1.3;padding:.55rem}
+.phone-layout .principles{padding:.7rem 0 .85rem}.phone-layout .principles h2{font-size:1.35rem;margin:0 0 .4rem}
+.phone-layout .principle-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:0!important;border-top:1px solid var(--line)}
+.phone-layout .principle-grid>div{min-width:0;padding:.4rem .45rem;border-bottom:1px solid var(--line)}.phone-layout .principle-grid>div:nth-child(odd){border-right:1px solid var(--line)}
+.phone-layout .principle-grid h3{font-size:.76rem!important;line-height:1.08;margin:0 0 .1rem;white-space:normal}.phone-layout .principle-grid p{font-size:.72rem!important;line-height:1.2;margin:0}
+.phone-layout .site-footer{padding:.9rem 0}.phone-layout .site-footer p{margin:.2rem 0;font-size:.88rem}
+@media(max-width:370px){.phone-layout .brand span{display:none}.phone-layout .house{grid-template-columns:1fr!important}.phone-layout .note{transform:none}}
