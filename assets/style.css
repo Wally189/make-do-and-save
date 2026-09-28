@@ -72,3 +72,17 @@
   .card-grid{gap:.45rem}.card-art{height:62px}.discovery p{font-size:.72rem}
   .house{grid-template-columns:1fr}.note{transform:none}
 }
+
+@media (hover:none) and (pointer:coarse){
+body{font-size:15px;line-height:1.38}.wrap{width:min(100% - 24px,var(--max))}
+.masthead{grid-template-columns:1fr auto;gap:.7rem;padding:.6rem 0}.identity{display:none}.menu-toggle{display:block;min-width:48px;min-height:44px}
+.nav{display:grid;position:absolute;z-index:10;left:0;right:0;background:var(--paper);padding:.5rem 16px}.js .nav{display:none}.js .nav.open{display:grid}.nav a{min-height:44px;display:flex;align-items:center}
+.hero-inner{min-height:auto}.hero-copy{padding:1.6rem 0}.hero h1{font-size:2.6rem}.hero .strap{font-size:1.15rem}.actions{margin-top:.9rem}.button{min-height:44px;display:inline-flex;align-items:center}
+.experiment{grid-template-columns:1fr;gap:.65rem;padding:.8rem}.experiment>div:first-child{grid-row:auto}.experiment h2{font-size:1.35rem}.figures{grid-template-columns:repeat(3,1fr)}.figures dt{font-size:.6rem}.figures dd{font-size:.96rem}
+.ticks{display:grid;grid-template-columns:1fr 1fr;gap:.1rem .45rem;font-size:.84rem}
+.section{padding:.9rem 0}.card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:.55rem}.card-art{height:72px}.discovery h2{font-size:1rem}.discovery p{font-size:.74rem;line-height:1.22}.discovery b{font-size:.72rem}
+.reckoning{padding:1rem 0}.reckoning-grid{grid-template-columns:1fr;gap:.55rem}.reckoning h2{font-size:1.55rem}.reckoning-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.reckoning-stats div{min-width:0}.reckoning-stats dd{font-size:.82rem;overflow-wrap:anywhere}
+.house{grid-template-columns:minmax(0,1.55fr) minmax(110px,.65fr);gap:.65rem;padding-block:1rem}.house h2{font-size:1.4rem}.house p{font-size:.9rem}.note{padding:.65rem;font-size:.76rem}
+.principles{padding:.75rem 0 .9rem}.principle-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0}.principle-grid>div{padding:.45rem .5rem;min-width:0}.principle-grid h3{font-size:.82rem;overflow-wrap:anywhere}.principle-grid p{font-size:.74rem;line-height:1.22}
+.site-footer{padding:1rem 0}
+}
